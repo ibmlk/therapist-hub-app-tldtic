@@ -1,7 +1,28 @@
 {
-  "name": "Natively",
+  "name": "therapist-hub",
   "version": "1.0.0",
+  "description": "A comprehensive mobile application connecting massage therapy clients with professional therapists across Indonesia",
   "main": "index.ts",
+  "keywords": [
+    "react-native",
+    "expo",
+    "massage",
+    "therapist",
+    "booking",
+    "indonesia",
+    "mobile-app",
+    "supabase"
+  ],
+  "author": "Therapist Hub Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/therapist-hub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/therapist-hub/issues"
+  },
+  "homepage": "https://github.com/yourusername/therapist-hub#readme",
   "scripts": {
     "dev": "EXPO_NO_TELEMETRY=1 expo start --tunnel",
     "android": "EXPO_NO_TELEMETRY=1 expo start --android",
@@ -18,10 +39,12 @@
     "@expo/metro-runtime": "~6.1.1",
     "@expo/ngrok": "^4.1.3",
     "@expo/vector-icons": "^15.0.2",
+    "@react-native-async-storage/async-storage": "^2.2.0",
     "@react-native-community/datetimepicker": "^8.3.0",
     "@react-navigation/drawer": "^7.1.1",
     "@react-navigation/native": "^7.0.14",
     "@react-navigation/native-stack": "^7.2.0",
+    "@supabase/supabase-js": "^2.81.1",
     "@types/difflib": "^0.2.7",
     "difflib": "^0.2.4",
     "eas": "^0.1.0",
